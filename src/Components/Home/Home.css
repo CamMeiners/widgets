@@ -1,0 +1,39 @@
+.home {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.home a {
+  text-decoration: underline;
+  color: white;
+}
+.home .intro {
+  font-size: 2rem;
+  font-weight: 600;
+  opacity: 0;
+  animation: change 2s ease-in-out forwards;
+  animation-delay: 1s;
+}
+.home p {
+  font-size: 1.5rem;
+  opacity: 0;
+  animation: change 2s ease-in-out forwards;
+  animation-delay: 2s;
+}
+.home h1 {
+  opacity: 0;
+  animation: change 2s ease-in-out forwards;
+}
+@keyframes change {
+  to {
+    opacity: 1;
+  }
+}

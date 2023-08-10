@@ -1,0 +1,56 @@
+.burgerMenu {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  cursor: pointer;
+  font-size: 35px;
+  color: white;
+}
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: gray;
+  width: 0px;
+  position: absolute;
+  transition: 0.4s ease-in-out;
+  overflow: hidden;
+  z-index: 100;
+  display: flex;
+  white-space: nowrap;
+  box-shadow: 1px 0px 6px rgb(0, 0, 0, 0.4);
+}
+.closeIcon {
+  color: white;
+  position: absolute;
+  left: 26px;
+  top: 10px;
+  cursor: pointer;
+  font-size: 45px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  text-align: left;
+  margin-top: 50px;
+  transition: 0.3s;
+  font-size: 30px;
+  justify-content: center;
+  padding-left: 20px;
+}
+.links:hover > a:hover {
+  opacity: 1;
+  padding-left: 10px;
+}
+.links:hover > a {
+  opacity: 0.3;
+}
+.links a {
+  flex-shrink: 0;
+  padding-top: 40px;
+  text-decoration: none;
+  transition: 0.2s;
+  color: white;
+}

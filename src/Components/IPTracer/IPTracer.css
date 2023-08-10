@@ -1,0 +1,38 @@
+.IPTracer {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.IPTracer input {
+  width: 240px;
+  height: 40px;
+  font-size: 30px;
+  position: absolute;
+  top: 400px;
+}
+.IPTracer button {
+  position: absolute;
+  top: 460px;
+  width: 120px;
+  height: 30px;
+  font-size: 20px;
+}
+.IPTracer p {
+  position: absolute;
+  top: 100px;
+}
+.IPTracer a {
+  text-decoration: underline;
+  color: white;
+}
+.IPTracer .info {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

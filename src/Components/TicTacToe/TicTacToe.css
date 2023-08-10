@@ -1,0 +1,90 @@
+.TicTacToe {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.gameBoard .row {
+  display: flex;
+}
+.buttons {
+  display: flex;
+  position: absolute;
+  top: 70vh;
+}
+.TicTacToe .clear {
+  width: 100%;
+  border-radius: 0;
+  height: 50px;
+  transition: 0.2s ease;
+  cursor: pointer;
+  font-size: 100%;
+}
+.TicTacToe .clear:hover {
+  background-color: pink;
+}
+.TicTacToe .text {
+  position: absolute;
+  top: 20px;
+}
+.gameBoard {
+  border: 3px solid white;
+  z-index: 100;
+}
+.gameBoard .box {
+  width: 3vw;
+  height: 3vw;
+  cursor: pointer;
+  margin: 1vw;
+}
+.gameBoard .red {
+  background-color: red;
+}
+.gameBoard .green {
+  background-color: green;
+}
+.gameBoard .box2 {
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+}
+.gameBoard .box3 {
+  border-bottom: 3px solid white;
+}
+.gameBoard .box4 {
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+}
+.gameBoard .box5 {
+  border-bottom: 3px solid white;
+}
+.gameBoard .box6 {
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+}
+.gameBoard .box7 {
+  border-right: 3px solid white;
+}
+.gameBoard .box8 {
+  border-right: 3px solid white;
+}
+.gameBoard .box1 {
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+}
+.gameBoard .box1 {
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+}
+.wins {
+  position: absolute;
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,70 @@
+.triangle {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.triangle .box {
+  width: 1000px;
+  height: 1000px;
+  position: relative;
+}
+.triangle button {
+  width: 200px;
+  border-radius: 0;
+  height: 50px;
+  transition: 0.2s ease;
+  cursor: pointer;
+  font-size: 25px;
+}
+.triangle button:hover {
+  background-color: lightgreen;
+}
+.triangle .inputs {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 250px;
+  right: 250px;
+  align-items: center;
+}
+.triangle .inputs div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.triangle .inputs h1 {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.triangle .inputs input {
+  width: 100px;
+  height: 40px;
+  font-size: 30px;
+  margin-top: 40px;
+}
+.triangle .inputs p {
+  font-size: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.explanation {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  width: 350px;
+}
+.explanation p {
+  font-size: 18px;
+  text-align: left;
+}
+.explanation p a {
+  text-decoration: underline;
+  color: white;
+}
